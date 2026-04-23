@@ -6,6 +6,7 @@ import Register from "../pages/Register";
 import AuthLayout from "../layouts/AuthLayout";
 import About from "../pages/About";
 import Privacy from "../pages/Privacy";
+import Contact from "../pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
       {
         path: "privacy",
         Component: Privacy,
+      },
+      {
+        path: "contact",
+        Component: Contact,
       },
     ],
   },
