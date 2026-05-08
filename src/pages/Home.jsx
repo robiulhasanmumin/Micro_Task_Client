@@ -6,13 +6,15 @@ import Statistics from '../component/Statistics';
 import FeaturedCategories from '../component/Feature';
 import FAQ from '../component/FAQ';
 import Newsletter from '../component/Newsletter';
+import BestWorkers from '../component/BestWorkers';
  
 const Home = () => {
   return (
     <div>
       <Banner />
-      <Testimonials/>
       <HowItWorks/>
+      <BestWorkers/>
+      <Testimonials/>
       <Statistics/>
       <FeaturedCategories/>
       <FAQ/>
