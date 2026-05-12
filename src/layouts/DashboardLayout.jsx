@@ -34,8 +34,7 @@ const DashboardLayout = () => {
         );
     }
 
-    // Sidebar Content Component to reuse in desktop and mobile drawer
-    const SidebarContent = () => (
+     const SidebarContent = () => (
         <div className="h-full flex flex-col p-8">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 mb-10 hover:opacity-80 transition-opacity">

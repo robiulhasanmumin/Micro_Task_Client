@@ -12,9 +12,9 @@ import { FaQuoteLeft, FaStar } from "react-icons/fa";
 const Testimonials = () => {
      const reviews = [
         { id: 1, name: "ROBIUL HASAN", role: "BUYER", quote: "MicroTask has completely changed how I hire workers. The system is incredibly secure and fast!", rating: 5, img: "https://i.ibb.co/L8N7pP7/profile.png" },
-        { id: 2, name: "SARAH MILLER", role: "WORKER", quote: "I've found a reliable source of income. The dashboard is easy to use and the payments are always on time.", rating: 5, img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=500" },
+        { id: 2, name: "SALIM MILLER", role: "WORKER", quote: "I've found a reliable source of income. The dashboard is easy to use and the payments are always on time.", rating: 5, img: "https://img.magnific.com/free-photo/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background_176420-45257.jpg" },
         { id: 3, name: "ALEX JOHNSON", role: "BUYER", quote: "The quality of work is outstanding. Great platform that values transparency and security.", rating: 4, img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500" },
-        { id: 4, name: "EMILY DAVIS", role: "WORKER", quote: "The best place for micro-tasks. Highly recommended for everyone looking for part-time work.", rating: 5, img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=500" }
+        { id: 4, name: "EMIL DAVIS", role: "WORKER", quote: "The best place for micro-tasks. Highly recommended for everyone looking for part-time work.", rating: 5, img: "https://images.peopleimages.com/picture/202212/2564599-success-corporate-leadership-and-portrait-of-black-man-sitting-on-desk-in-modern-office-for-startup.-management-marketing-ceo-and-happy-male-entrepreneur-with-business-vision-in-creative-workplace-fit_400_400.jpg" }
     ];
 
     return (
