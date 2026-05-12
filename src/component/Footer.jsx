@@ -9,8 +9,7 @@ const Footer = () => {
         
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
           
-          {/*ব্র্যান্ড এবং ভিশন */}
-          <div className="flex flex-col items-start">
+           <div className="flex flex-col items-start">
             <Link to="/" className="flex items-center gap-2 mb-6">
               <div className="bg-primary p-2 rounded-xl shadow-lg shadow-primary/20">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -22,16 +22,13 @@ const Newsletter = () => {
     return (
         <section className="py-24 px-6 bg-base-100">
             <div className="max-w-6xl mx-auto">
-                {/* Main Container with matching About Page Rounded Style */}
-                <div className="bg-primary/5 border border-primary/10 p-10 md:p-20 rounded-[4rem] text-center relative overflow-hidden">
+                 <div className="bg-primary/5 border border-primary/10 p-10 md:p-20 rounded-[4rem] text-center relative overflow-hidden">
                     
-                    {/* Background Decorative Elements */}
-                    <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary opacity-5 rounded-full blur-3xl"></div>
+                     <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary opacity-5 rounded-full blur-3xl"></div>
                     <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary opacity-10 rounded-full blur-3xl"></div>
 
                     <div className="relative z-10">
-                        {/* Header - No Italics, Bold Typography */}
-                        <motion.h2 
+                         <motion.h2 
                             initial={{ opacity: 0, y: 10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] mb-6"

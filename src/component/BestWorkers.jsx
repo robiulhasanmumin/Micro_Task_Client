@@ -63,8 +63,7 @@ const BestWorkers = () => {
                                 </div>
                             )}
 
-                            {/* Worker Image */}
-                            <div className="w-24 h-24 rounded-full p-1 border-4 border-primary/10 mb-6 overflow-hidden">
+                             <div className="w-24 h-24 rounded-full p-1 border-4 border-primary/10 mb-6 overflow-hidden">
                                 <img 
                                     src={worker.photoURL || worker.image} 
                                     alt={worker.name} 

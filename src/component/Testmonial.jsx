@@ -21,8 +21,7 @@ const Testimonials = () => {
         <section className="py-24 bg-base-100 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
                 
-                {/* Section Title - Matching About Page Styles */}
-                <div className="text-center mb-16">
+                 <div className="text-center mb-16">
                     <h2 className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-4">User Feedback</h2>
                     <h1 className="text-4xl md:text-6xl font-black text-base-content tracking-tighter">
                         What Our <span className="text-primary">Community</span> Says
@@ -49,8 +48,7 @@ const Testimonials = () => {
                 >
                     {reviews.map((review) => (
                         <SwiperSlide key={review.id} className="max-w-[450px]">
-                            {/* Card Style matching the About page aesthetic */}
-                            <div className="bg-base-200/50 border border-base-300 p-12 rounded-[3.5rem] h-full flex flex-col items-center text-center shadow-xl shadow-base-300/10 transition-all duration-500 group">
+                             <div className="bg-base-200/50 border border-base-300 p-12 rounded-[3.5rem] h-full flex flex-col items-center text-center shadow-xl shadow-base-300/10 transition-all duration-500 group">
                                 
                                 <div className="text-primary/20 mb-6 group-hover:scale-125 transition-transform duration-500">
                                     <FaQuoteLeft size={45} />

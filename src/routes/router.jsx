@@ -7,6 +7,7 @@ import AuthLayout from "../layouts/AuthLayout";
 import About from "../pages/About";
 import Privacy from "../pages/Privacy";
 import Contact from "../pages/Contact";
+import DashboardLayout from "../layouts/DashboardLayout";
 
 export const router = createBrowserRouter([
   {
@@ -45,4 +46,15 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "dashboard",
+    Component: DashboardLayout,
+     // children: [
+    //     // Buyer Routes
+    //     { path: "buyer-home", element: <BuyerHome /> },
+    //     { path: "add-task", element: <AddTask /> },
+    //     // Admin Routes
+    //     { path: "manage-users", element: <ManageUsers /> },
+    // ]
+}
 ]);
